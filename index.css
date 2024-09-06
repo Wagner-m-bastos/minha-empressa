@@ -1,0 +1,26 @@
+* { font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}  
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(201, 19, 19);
+    padding: 30px 45px;
+    color: aliceblue;
+    
+}
+ .cabecalho ul {
+    display: flex;
+    gap: 20px;
+ } 
+ .cabecalho ul li a {
+    color: antiquewhite;
+ } 
+  
+ p {
+    color: brown;
+ }
