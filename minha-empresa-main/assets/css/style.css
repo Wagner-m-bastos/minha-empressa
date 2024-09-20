@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 60px;
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho ul li a {
+    color: #fff;
+}
+.cabecalho nav ul li a:hover{
+    background-color: brown;
+}
+ 
+
+     
+ 
+.main {
+    padding: 30px 60px;
+}
+
+
+.btn:hover {
+    background: #444;
+} 
+ 
+
+
+.rodape {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+@media screen  and (max-width:890px) {
+    .main .pai-dos-lados {
+        flex-direction: column-reverse;
+    }
+    .main .pai-dos-lados div {
+        width: 100%;
+    }
+} 
+ @media screen and (max) {
+    
+ }  
+ .cabecalho nav ul li .selected { 
+     background-color: #ffffff;
+     color: black; 
+     
+    } 
+    body {
+      background: linear-gradient(to right, #8a2727, #075e3f);
+    } 
+    body {
+   background-image: url(../img/teste.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+   backdrop-filter :blur(3px);
+
+    }
+    .animacao-balada {   
+
+    }
+    @keyframes  balada  3s infinite { 
+         0% {
+            color: #075e3f;
+         }
+             
+         
+            
+
+        
+        59% {
+            color: #8a2727;
+        }
+
+        
+        
+        100% {
+            color: blue;
+        }
+
+        
+    } 
+  @keyframes movimentar {
+    0% {
+        transform: translate(-300px);
+
+    }
+    100% {
+        transform: translate(0);
+
+    }
+  }
+   
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 890px) {
+   .main .pai-dos-lados {
+    flex-direction: column-reverse;
+   }
+
+   .main .pai-dos-lados div {
+    width: 100%;
+   }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        padding: 10px;
+    }
+ } */
